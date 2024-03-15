@@ -27,7 +27,7 @@ class Galunes{
         }
     
         if (this.word.endsWith('uo')) {
-            return this.word.slice(0, -2) + 'ienie';
+            return this.word.slice(0, -2) + 'enie';
         }
         return this.word;
     }
