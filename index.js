@@ -22,16 +22,16 @@ formDOM.addEventListener('submit', event => {
     const text = inputDOM.value;
     const word = new Galunes(text);
     const changeWord = word.pirma();
-    
+
     listDOM.insertAdjacentHTML(
         'beforeend',
         `<li>${text} - ${changeWord}</li>` 
+
     );
 
-    taskList.push(changeWord); // Add the task to the task list array
 
     localStorage.setItem(localStorageKey, JSON.stringify(taskList));
-    
+
 });
 
 const reset = document.querySelector("#reset");
