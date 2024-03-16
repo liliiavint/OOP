@@ -7,7 +7,7 @@ class Galunes{
         if (this.word.endsWith('as')) {
             return this.word.slice(0, -2) + 'e';
         }
-        if (this.word.endsWith('is')) {
+        if (this.word.endsWith('lis')) {
             return this.word.slice(0, -2) + 'i';
         }
         if (this.word.endsWith('ys')) {
@@ -31,31 +31,30 @@ class Galunes{
         }
         return this.word;
     }
-}
 
-export { Galunes}
-
-/*antra() {
-    if (this.word.endsWith('ė')) {
-        return this.word.slice(0, -1) + 'e';
-    }
 }
+// export { Galunes}
 
-trecia() {
-    if (this.word.endsWith('is')) {
-        return this.word.slice(0, -2) + 'ie';
-    }
-}
+// antra() {
+//     if (this.word.endsWith('ė')) {
+//         return this.word.slice(0, -1) + 'e';
+//     }
+// }
 
-ketvirta() {
-    if (this.word.endsWith('us')) {
-        return this.word.slice(0, -2) + 'au';
-    }
-}
+// trecia() {
+//     if (this.word.endsWith('is')) {
+//         return this.word.slice(0, -2) + 'ie';
+//     }
+// }
 
-penkta() {
-    if (this.word.endsWith('uo')) {
-        return this.word.slice(0, -2) + 'ienie';
-    }
-}
-}*/
+// ketvirta() {
+//     if (this.word.endsWith('us')) {
+//         return this.word.slice(0, -2) + 'au';
+//     }
+// }
+
+// penkta() {
+//     if (this.word.endsWith('uo')) {
+//         return this.word.slice(0, -2) + 'ienie';
+//     }
+// 

@@ -26,9 +26,9 @@ formDOM.addEventListener('submit', event => {
     listDOM.insertAdjacentHTML(
         'beforeend',
         `<li>${text} - ${changeWord}</li>` 
-        
     );
 
+    taskList.push(changeWord); // Add the task to the task list array
 
     localStorage.setItem(localStorageKey, JSON.stringify(taskList));
     
