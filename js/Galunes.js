@@ -18,6 +18,14 @@ class Galunes{
             return this.word.slice(0, -1) + 'e';
         }
    
+        if (this.word.endsWith('dis')) {
+            return this.word.slice(0, -2) + 'i';
+        }
+
+        if (this.word.endsWith('ias')) {
+            return this.word.slice(0, -2) + 'i';
+        }
+        
         if (this.word.endsWith('is')) {
             return this.word.slice(0, -2) + 'ie';
         }
@@ -33,7 +41,8 @@ class Galunes{
     }
 
 }
-// export { Galunes}
+
+export { Galunes}
 
 // antra() {
 //     if (this.word.endsWith('ė')) {
