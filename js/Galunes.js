@@ -10,6 +10,27 @@ class Galunes{
         if (this.word.endsWith('lis')) {
             return this.word.slice(0, -2) + 'i';
         }
+
+        if (this.word.endsWith('dis')) {
+            return this.word.slice(0, -2) + 'i';
+        }
+
+        if (this.word.endsWith('ias')) {
+            return this.word.slice(0, -2) + 'i';
+        }
+
+        if (this.word.endsWith('kis')) {
+            return this.word.slice(0, -2) + 'ie';
+        }
+        
+        if (this.word.endsWith('sis')) {
+            return this.word.slice(0, -2) + 'ie';
+        }
+
+        if (this.word.endsWith('is')) {
+            return this.word.slice(0, -2) + 'i';
+        }
+
         if (this.word.endsWith('ys')) {
             return this.word.slice(0, -2) + 'y';
         }
@@ -18,18 +39,6 @@ class Galunes{
             return this.word.slice(0, -1) + 'e';
         }
    
-        if (this.word.endsWith('dis')) {
-            return this.word.slice(0, -2) + 'i';
-        }
-
-        if (this.word.endsWith('ias')) {
-            return this.word.slice(0, -2) + 'i';
-        }
-        
-        if (this.word.endsWith('is')) {
-            return this.word.slice(0, -2) + 'ie';
-        }
-    
         if (this.word.endsWith('us')) {
             return this.word.slice(0, -2) + 'au';
         }

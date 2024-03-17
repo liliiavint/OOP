@@ -1,3 +1,7 @@
+main{
+    font-family:'Comfortaa', sans-serif;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -19,13 +23,26 @@ form label {
 }
 form input {
     font-size: 2rem;
+  
 }
 form .btn-list {
     flex-direction: row;
+    gap: 3rem;
 }
 form button {
+    background-color: #efefef;
+    border: none;
+    border-radius: 25px;
+    color: #424242;
+    box-shadow: -6px -6px 10px #f9f9f9,
+                6px 6px 10px #00000026;
     padding: 0.5rem 1rem;
     font-size: 1.4rem;
+}
+
+form button:hover{
+    box-shadow: 2px 2px 2px #f9f9f9,
+                -2px -2px 2px #00000026;
 }
 
 ul {
